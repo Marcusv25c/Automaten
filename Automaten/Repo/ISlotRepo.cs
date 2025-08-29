@@ -8,5 +8,8 @@ namespace Automaten.Repo
 {
     internal interface ISlotRepo
     {
+
+
+
     }
 }

@@ -11,8 +11,8 @@ namespace Automaten.Model
         private string _id; 
         private Product _product; 
 
-        protected string Id { get { return _id; } set { _id = value; } }
-        protected Product Product { get { return _product; } set { _product = value; } }
+        public string Id { get { return _id; } set { _id = value; } }
+        public Product Product { get { return _product; } set { _product = value; } }
 
 
     }

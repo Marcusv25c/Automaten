@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Automaten.Repo
 {
-    internal class BankRepo
+    internal class BankRepo : IBankRepo
     {
+
     }
 }
