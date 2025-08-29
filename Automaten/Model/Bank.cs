@@ -11,6 +11,7 @@ namespace Automaten.Model
         private int _total;
                 
         protected int Total { get { return _total; } set { _total = value; } }
+        //test
 
     }
 }
