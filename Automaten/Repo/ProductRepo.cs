@@ -11,7 +11,7 @@ namespace Automaten.Repo
     internal class ProductRepo : IProductRepo
     {
         private List<Product> _products = new List<Product>();
-        private readonly string _jsonFilePath = "C:\\Users\\banan\\source\\repos\\Automaten\\Automaten\\JSON\\Product.json";
+        private readonly string _jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "JSON", "Product.json");
 
 
         public ProductRepo()
